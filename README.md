@@ -2,7 +2,7 @@ Here is the complete, formatted text for your `README.md`.
 
 You can **copy the entire block of code below** and paste it directly into your `README.md` file. It includes everything: the project summary, the table of features, the auto-rendering architecture diagram, and the setup instructions.
 
-```markdown
+
 # Enterprise AI Agent Prototype
 
 ## 1. Executive Summary
