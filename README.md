@@ -34,17 +34,17 @@ The application follows a **"Check → Think → Act"** workflow to ensure secur
 ```mermaid
 graph TD
     %% Nodes
-    User[React Frontend]
-    API[FastAPI Backend]
-    Auth[Security Gatekeeper<br/>(RBAC Checks)]
-    Orch[Orchestrator<br/>(The Brain)]
-    GPT[GPT-4 API<br/>(Planner)]
+    User["React Frontend"]
+    API["FastAPI Backend"]
+    Auth["Security Gatekeeper<br/>(RBAC Checks)"]
+    Orch["Orchestrator<br/>(The Brain)"]
+    GPT["GPT-4 API<br/>(Planner)"]
     
-    subgraph Tools [Safe Execution Layer]
-        SQL[SQL Tool]
-        Vec[Vector Search]
-        Ana[Data Analysis]
-        Doc[Doc Creator]
+    subgraph Tools ["Safe Execution Layer"]
+        SQL["SQL Tool"]
+        Vec["Vector Search"]
+        Ana["Data Analysis"]
+        Doc["Doc Creator"]
     end
 
     %% Connections
